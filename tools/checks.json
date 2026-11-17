@@ -1,0 +1,9 @@
+[
+  { "file": "phone-board.jpg", "path": "#/", "viewport": { "width": 390, "height": 844 } },
+  { "file": "phone-bounty.jpg", "path": "#/b/makefun-frontend-01", "viewport": { "width": 390, "height": 844 }, "scroll": "scrollTo(0, 420)" },
+  { "file": "profile.jpg", "path": "#/u/superskie", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "big-leaderboard.jpg", "path": "#/b/tiny-chess-01/leaderboard", "viewport": { "width": 1280, "height": 800 }, "scroll": "document.querySelector('.vl').scrollTop = 5000 * 44" },
+  { "file": "cache-walk.jpg", "path": "#/", "viewport": { "width": 1280, "height": 800 }, "wait": 36000,
+    "scroll": "location.hash = '#/b/best-game-01'; setTimeout(() => (location.hash = '#/'), 1500); setTimeout(() => (location.hash = '#/b/best-game-01'), 2500); setTimeout(() => (location.hash = '#/b/best-game-01/leaderboard'), 31000); setTimeout(() => (location.hash = '#/b/best-game-01'), 32500)" },
+  { "file": "missing.jpg", "path": "#/b/no-such-bounty", "viewport": { "width": 1280, "height": 800 } }
+]
